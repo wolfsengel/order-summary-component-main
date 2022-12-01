@@ -1,32 +1,52 @@
-.attribution {  position: absolute;
-    top: 100%;font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
 
-.textin>img{
-    position:relative;
-    width:max-content;
-    border-radius: 10% 10% 0% 0%;
-}
-.textin{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    border-radius: 10% ;
-    background-color: rgb(255, 255, 255);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-.uwu{
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);}
-.textin h1{ font-size: 30px; text-align: center; text-justify: center; }
-.textin h1{ color: hsl(228, 45%, 44%); }
-.textin p{ font-size: 15px; text-align: center; }
-.textin p{ color: hsl(228, 63%, 62%); }
-p{text-align: center;text-justify: center;}
 @media screen and (min-width:376px) {
+    .attribution {color: hsl(228, 45%, 44%);  position: absolute;
+        top: 100%;font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .plan{
+        justify-self: center;
+        width: 195px;
+        background-color: rgb(235, 235, 235);
+        border-radius: 0.3cm;
+    }
+    .textin>img{
+        position:relative;
+        width:auto;
+        border-radius: 1cm 1cm 0% 0%;
+    }
+    .textin{
+        max-width: 300px;
+        min-width: 200px;
+        min-height: 500px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border-radius: 1cm ;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .uwu{
+        border-radius: 1cm;
+        max-width: 290px; 
+        min-width: 190px;
+        background-color:  hsl(247, 100%, 50%);
+        color: hsl(0, 0%, 100%);
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);}
+    .uwu2{
+        color:grey;
+        position: absolute;
+        top: 96%;
+        left: 50%;
+        transform: translate(-50%, -50%);}
+    .textin h1{ font-size: 30px; text-align: center; text-justify: center; }
+    .textin h1{ color: hsl(228, 45%, 44%); }
+    .textin p{ font-size: 15px; text-align: center; }
+    .textin p{ color: hsl(228, 63%, 62%); }
+    p{text-align: center;text-justify: center;}
   body{
         background-attachment: fixed;
         background-repeat: no-repeat;
@@ -34,16 +54,53 @@ p{text-align: center;text-justify: center;}
         background-image:url(images/pattern-background-desktop.svg) ;
     }  
 }
+
+
+
+
 @media screen and (max-width:375px) {
+
+    .attribution { color: hsl(228, 45%, 44%); position: absolute;
+        top: 100%;font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+    .textin>img{
+        position:relative;
+        width:max-content;
+        border-radius: 10% 10% 0% 0%;
+    }
+    .textin{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        border-radius: 10% ;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .plan{
+    
+    }
+    .uwu{
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -50%);}
+    .textin h1{ font-size: 30px; text-align: center; text-justify: center; }
+    .textin h1{ color: hsl(228, 45%, 44%); }
+    .textin p{ font-size: 9px; text-align: center; }
+    .textin p{ color: hsl(228, 63%, 62%); }
+    p{text-align: center;text-justify: center;}
+    .uwu{
+        color: hsl(228, 45%, 44%);
+        align-items: center;
+        justify-items: center;
+    }
+    
     body{
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
         background-image:url(images/pattern-background-mobile.svg) ;
     }  
-}
-.uwu{
-    color: hsl(228, 45%, 44%);
-    align-items: center;
-    justify-items: center;
 }
